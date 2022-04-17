@@ -7,13 +7,15 @@ sources:
     kind: jenkins
     spec:
       release: weekly
+
 # Defines "conditions" required to update targets 
 conditions:
   dockerimage:
     name: Is Jenkins weekly tag published on DockerHub
-    kind: dockerImage
+    kind: dockerimage
     spec:
       image: jenkins/jenkins
+      architecture: amd64
       # tag: Tag value coming from source result
 
 # Defines "targets" which need to be updated if different than "source" information.

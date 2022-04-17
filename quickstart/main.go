@@ -48,7 +48,7 @@ func updatecliDemo() *demo.Run {
 		"Now let's see what our updatecli manifest looks like",
 		"and how it will update our data file",
 	), demo.S(
-		"cat manifest.yaml",
+		"cat updatecli.yaml",
 	))
 
 	r.Step(demo.S(
@@ -78,14 +78,14 @@ func updatecliDemo() *demo.Run {
 	r.Step(demo.S(
 		"Let's now see if something needs to be changed",
 	), demo.S(
-		"updatecli diff --config manifest.yaml",
+		"updatecli diff --config updatecli.yaml",
 	))
 
 	r.Step(demo.S(
 		"Updatecli tells us that an update is available",
 		"All we have to do is to execute updatecli",
 		"once again but in apply mode",
-		"updatecli apply --config manifest.yaml",
+		"updatecli apply --config updatecli.yaml",
 		"",
 	), nil)
 
