@@ -9,6 +9,7 @@ To record our video, we need to use a third tool such as:
 * [Asciinema](https://asciinema.org/)
 * [Terminalizer](https://github.com/faressoft/terminalizer)
 * [OBS Studio](https://obsproject.com/)
+* [VHS](https://github.com/charmbracelet/vhs)
 
 This repository uses a Makefile to easily execute the different demos, more information on `make help`
 
