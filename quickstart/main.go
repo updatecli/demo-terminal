@@ -82,7 +82,7 @@ func updatecliDemo() *demo.Run {
 	))
 
 	r.Step(demo.S(
-		"Updatecli tells us that an update is availabe",
+		"Updatecli tells us that an update is available",
 		"All we have to do is to execute updatecli",
 		"once again but in apply mode",
 		"updatecli apply --config manifest.yaml",
@@ -93,7 +93,7 @@ func updatecliDemo() *demo.Run {
 		"You can now go further by:",
 		"Looking at available plugins: https://www.updatecli.io/plugins/",
 		"Digging into core concepts: https://www.updatecli.io/docs/core/",
-		"Helping us growing updatecli: https://github.com/updatecli/updatecli",
+		"Helping us grow updatecli: https://github.com/updatecli/updatecli",
 		"",
 		"Thank you for watching this ❤️ ",
 		"",
