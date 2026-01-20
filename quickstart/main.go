@@ -93,7 +93,7 @@ func updatecliDemo() *demo.Run {
 		"You can now go further by:",
 		"Looking at available plugins: https://www.updatecli.io/plugins/",
 		"Digging into core concepts: https://www.updatecli.io/docs/core/",
-		"Helping us growing updatecli: https://github.com/updatecli/updatecli",
+		"Helping us grow updatecli: https://github.com/updatecli/updatecli",
 		"",
 		"Thank you for watching this ❤️ ",
 		"",
