@@ -82,7 +82,7 @@ func updatecliDemo() *demo.Run {
 	))
 
 	r.Step(demo.S(
-		"Updatecli tells us that an update is availabe",
+		"Updatecli tells us that an update is available",
 		"All we have to do is to execute updatecli",
 		"once again but in apply mode",
 		"updatecli apply --config manifest.yaml",
