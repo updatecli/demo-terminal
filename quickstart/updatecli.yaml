@@ -1,5 +1,5 @@
-# manifest.yaml
-title: QuickStart example
+# updatecli.yaml
+name: QuickStart example
 # Defines how to get "source" information such as Jenkins version
 sources:
   jenkinsVersion:
@@ -8,7 +8,7 @@ sources:
     spec:
       release: weekly
 
-# Defines "conditions" required to update targets 
+# Defines "conditions" required to update targets
 conditions:
   dockerimage:
     name: Is Jenkins weekly tag published on DockerHub
@@ -21,9 +21,9 @@ conditions:
 # Defines "targets" which need to be updated if different than "source" information.
 targets:
   dataFile:
-    name: Bump Jenkins Docker Image Tag 
+    name: Bump Jenkins Docker Image Tag
     kind: yaml
     spec:
-      key: container.tag
+      key: "$.container.tag"
       file: data.yaml
       # value: Default value coming from source result
