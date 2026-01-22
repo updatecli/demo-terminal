@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/saschagrunert/demo v0.0.0-20220128145744-c456d0743b4f
-	github.com/urfave/cli/v2 v2.3.0
+	github.com/urfave/cli/v2 v2.27.7
 )
 
 require (
