@@ -1,26 +1,26 @@
 policies:
   - name: Update Updatecli policies
-    policy: ghcr.io/updatecli/policies/updatecli/autodiscovery:0.8.1@sha256:f8edda1a6cbf0d7274e2b847ede29fc4dc70dd5302ccb8575ae21b069cc0d8a0
+    policy: ghcr.io/updatecli/policies/updatecli/autodiscovery:0.9.0@sha256:67026697434a99f6e01a662caa662e8ed02e39e8abf8f7399ab673d113abb360
     values:
       - updatecli/values.d/scm.yaml
       - updatecli/values.d/updatecli-compose.yaml
   - name: Major Golang Module update
-    policy: ghcr.io/updatecli/policies/autodiscovery/golang:0.13.1@sha256:85a008b9760fc02b05f68f4047d53b7c05f7250d5a8e8e7da33e925c72c885e0
+    policy: ghcr.io/updatecli/policies/autodiscovery/golang:0.14.0@sha256:dcca03ce07083bd34140d85ad2e1317ef6f40ea258f2b3c67edf3823a25d303f
     values:
       - updatecli/values.d/scm.yaml
       - updatecli/values.d/golang_major.yaml
   - name: Minor Golang Module update
-    policy: ghcr.io/updatecli/policies/autodiscovery/golang:0.13.1@sha256:85a008b9760fc02b05f68f4047d53b7c05f7250d5a8e8e7da33e925c72c885e0
+    policy: ghcr.io/updatecli/policies/autodiscovery/golang:0.14.0@sha256:dcca03ce07083bd34140d85ad2e1317ef6f40ea258f2b3c67edf3823a25d303f
     values:
       - updatecli/values.d/scm.yaml
       - updatecli/values.d/golang_minor.yaml
   - name: Patch Golang Module update
-    policy: ghcr.io/updatecli/policies/autodiscovery/golang:0.13.1@sha256:85a008b9760fc02b05f68f4047d53b7c05f7250d5a8e8e7da33e925c72c885e0
+    policy: ghcr.io/updatecli/policies/autodiscovery/golang:0.14.0@sha256:dcca03ce07083bd34140d85ad2e1317ef6f40ea258f2b3c67edf3823a25d303f
     values:
       - updatecli/values.d/scm.yaml
       - updatecli/values.d/golang_patch.yaml
   - name: Update githubactions
-    policy: ghcr.io/updatecli/policies/autodiscovery/githubaction:0.4.1@sha256:869b676074f9fee7edd5d488140a12c3b09a5f8a175f12f26ea85a4f8bd0a9d1
+    policy: ghcr.io/updatecli/policies/autodiscovery/githubaction:0.5.0@sha256:7dd97c132950994dc3fb89e0bc77037358e9168d8e6980705b2a06e444270626
     values:
       - updatecli/values.d/scm.yaml
       - updatecli/values.d/githubaction.yaml
